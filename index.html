@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#075d7b">
+<meta name="description" content="Matt's Healthy Mind and Body offers counselling and wellbeing services in Hoi An and online. Support for individuals, couples and families.">
+<title>Matt's Healthy Mind and Body | Hoi An</title>
+<style>
+:root{--ink:#153b49;--muted:#526b73;--blue:#075d7b;--dark:#06485f;--leaf:#72bd45;--paper:#f4f7f4;--white:#fff;--line:#d9e4e1;--soft:#e7f1f2;--serif:Georgia,"Times New Roman",serif;--sans:"Segoe UI",Arial,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--paper);font:16px/1.65 var(--sans)}a{color:inherit}.wrap{width:min(1120px,calc(100% - 44px));margin:0 auto}
+.topbar{background:var(--dark);color:#e9f3f4;font-size:13px}.topbar-inner{min-height:38px;display:flex;align-items:center;justify-content:space-between;gap:20px}.topbar a{text-decoration:none}
+header{background:rgba(255,255,255,.95);border-bottom:1px solid var(--line)}.nav{min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{display:flex;align-items:center;gap:13px;text-decoration:none;min-width:250px}.brand img{width:62px;height:62px;border-radius:50%;object-fit:cover}.brand-name{font:18px/1.2 var(--serif)}.brand-name small{display:block;margin-top:4px;font:11px/1.3 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+nav{display:flex;align-items:center;gap:27px}nav a{text-decoration:none;font-size:14px}nav a:hover,.text-link:hover{color:var(--blue)}.button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:999px;color:white;background:var(--blue);text-decoration:none;font-size:14px;font-weight:650;transition:background .2s,transform .2s}.button:hover{background:var(--dark);transform:translateY(-1px)}
+.hero{padding:66px 0 72px}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:clamp(34px,7vw,90px)}.eyebrow{margin:0 0 16px;color:var(--blue);font-size:12px;font-weight:750;letter-spacing:.16em;text-transform:uppercase}
+h1,h2,h3,p{margin-top:0}h1{max-width:630px;margin-bottom:22px;font:clamp(44px,6vw,74px)/1.04 var(--serif);letter-spacing:-.04em}h1 em{color:var(--blue);font-weight:400}.hero-copy{max-width:540px;margin-bottom:28px;color:var(--muted);font-size:18px}.hero-note{margin:15px 0 0;color:var(--muted);font-size:13px}
+.hero-art{min-height:405px;display:grid;place-items:center;position:relative;isolation:isolate}.hero-art:before{content:"";position:absolute;inset:2% 2% 4% 4%;z-index:-2;border-radius:48% 52% 43% 57%/53% 43% 57% 47%;background:#8fae7a;transform:rotate(-5deg)}.hero-logo{width:min(74%,310px);height:auto;border-radius:50%;box-shadow:0 20px 55px #07485f33}
+.highlights{border-block:1px solid var(--line);background:white}.highlights-inner{display:flex;justify-content:space-between;gap:22px;flex-wrap:wrap;padding:21px 0}.highlights span{color:var(--muted);font-size:14px}.highlights span:before{content:"●";margin-right:10px;color:var(--leaf);font-size:11px}
+section.content{padding:84px 0}.section-heading{max-width:690px;margin:0 auto 42px;text-align:center}h2{margin-bottom:13px;font:clamp(35px,4.5vw,54px)/1.1 var(--serif);letter-spacing:-.035em}.section-heading p:last-child{margin-bottom:0;color:var(--muted)}
+.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service{min-height:188px;padding:26px;border:1px solid var(--line);border-radius:17px;background:var(--white)}.number{color:var(--blue);font-size:12px;font-weight:700;letter-spacing:.12em}.service h3{margin:22px 0 8px;font:24px/1.2 var(--serif)}.service p{margin:0;color:var(--muted);font-size:14px}
+.about{background:var(--soft)}.about-grid{display:grid;grid-template-columns:.86fr 1.14fr;gap:clamp(40px,8vw,105px);align-items:center}.about-mark{min-height:315px;display:grid;place-items:center;border-radius:22px;background:white;border:1px solid var(--line)}.about-mark img{width:min(68%,240px);border-radius:50%}.about-copy h2{max-width:520px}.about-copy p{color:var(--muted)}.details{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:28px}.detail{padding:18px 20px;border-left:3px solid var(--leaf);background:#ffffffb3}.detail strong{display:block;margin-bottom:3px;font:20px var(--serif)}.detail span{color:var(--muted);font-size:13px}
+.contact{color:white;background:var(--dark)}.contact-grid{display:grid;grid-template-columns:1fr .82fr;align-items:center;gap:60px}.contact .eyebrow{color:#bce4a0}.contact h2{max-width:570px}.contact-copy{max-width:500px;color:#d4e5e8}.contact-card{padding:29px;border-radius:18px;background:white;color:var(--ink)}.contact-card h3{margin-bottom:6px;font:26px var(--serif)}.contact-card p{margin-bottom:20px;color:var(--muted);font-size:14px}.contact-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.contact-actions .button{width:100%;padding:0 9px;font-size:13px;white-space:nowrap}.contact-actions .whatsapp{background:#178c55}.contact-actions .zalo{background:#1969cd}@media(max-width:420px){.contact-actions{grid-template-columns:1fr}}.contact-card small{display:block;margin-top:13px;color:var(--muted);text-align:center}
+footer{padding:24px 0;color:var(--muted);background:white;font-size:12px}.foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.foot a{color:var(--blue)}
+
+@media(max-width:760px){.wrap{width:min(100% - 34px,560px)}.topbar-inner{justify-content:center}.nav{min-height:76px}.brand{min-width:0}.brand img{width:52px;height:52px}.brand-name{font-size:16px}nav{gap:12px}nav a:not(.button){display:none}.hero{padding:42px 0 50px}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero-art{min-height:310px;order:-1}.hero-logo{width:min(68%,255px)}.highlights-inner{justify-content:flex-start;gap:10px 24px}section.content{padding:64px 0}.service-grid{grid-template-columns:1fr}.service{min-height:0}.service h3{margin-top:15px}.about-mark{min-height:260px}.details{grid-template-columns:1fr}.contact-grid{gap:28px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap topbar-inner"><span>Support for mind and body in Hoi An</span><a href="tel:+84866120877">Call +84 866 120 877</a></div></div>
+<header><div class="wrap nav">
+<a class="brand" href="#top" aria-label="Matt's Healthy Mind and Body home"><img src="matt-healthy-mind-body-logo.png" alt=""><span class="brand-name">Matt's Healthy<small>Mind and Body</small></span></a>
+<nav aria-label="Main navigation"><a href="#support">Support</a><a href="#about">About</a><a class="button" href="#contact">Get in touch <span aria-hidden="true" style="margin-left:9px">↗</span></a></nav>
+</div></header>
+<main id="top">
+<section class="hero"><div class="wrap hero-grid"><div><p class="eyebrow">Counselling · Wellbeing · Whole-person care</p><h1><span>Care for the whole person,</span> <em>at your pace.</em></h1><p class="hero-copy">A welcoming space to talk things through, understand what matters to you, and explore a way forward that feels right.</p><a class="button" href="#contact"><span>Start a conversation</span> <span aria-hidden="true" style="margin-left:10px">↗</span></a><p class="hero-note">You don't need to have it all figured out before reaching out.</p></div>
+<div class="hero-art"><img class="hero-logo" src="matt-healthy-mind-body-logo.png" alt="MHB — Matt's Healthy Mind and Body logo"></div></div></section>
+<div class="highlights"><div class="wrap highlights-inner"><span>In-person sessions in Hoi An</span><span>Online sessions available</span><span>Individuals, couples and families</span></div></div>
+<section class="content" id="support"><div class="wrap"><div class="section-heading"><p class="eyebrow">How Matt can support you</p><h2>Support shaped around you.</h2><p>Start with a conversation about what you're looking for. Together, you can decide which kind of support fits your goals and circumstances.</p></div>
+<div class="service-grid">
+<article class="service"><span class="number">01 · COUNSELLING</span><h3>Counselling</h3><p>A thoughtful space for individuals, couples and families to talk, reflect and consider what could help.</p></article>
+<article class="service"><span class="number">02 · MOVEMENT</span><h3>Personal training</h3><p>Personal training shaped around your goals, current experience and pace.</p></article>
+<article class="service"><span class="number">03 · NUTRITION</span><h3>Nutrition advice</h3><p>Practical nutrition guidance to support your wellbeing and everyday routines.</p></article>
+<article class="service"><span class="number">04 · HYDROTHERAPY</span><h3>Hydrotherapy</h3><p>Ask about hydrotherapy and whether it may be suitable for your needs.</p></article>
+<article class="service"><span class="number">05 · BREATHWORK</span><h3>Breath work</h3><p>Explore breath work as part of a considered approach to mind and body wellbeing.</p></article>
+<article class="service"><span class="number">06 · FIRST STEP</span><h3>Not sure where to start?</h3><p>Get in touch with a question. You can talk through the options before deciding.</p></article>
+</div></div></section>
+<section class="content about" id="about"><div class="wrap about-grid"><div class="about-mark"><img src="matt-healthy-mind-body-logo.png" alt="Matt's Healthy Mind and Body logo"></div><div class="about-copy"><p class="eyebrow">Matt's Healthy Mind and Body</p><h2>Wellbeing is personal.</h2><p>Matt's Healthy Mind and Body is a counselling and health services practice based in Hoi An. In-person and online sessions are available for individuals, couples and families.</p><p>Matt’s background includes qualifications in counselling, psychology, personal training, nutrition and breath work. Support is guided by your needs and the goals you choose.</p><div class="details"><div class="detail"><strong>Hoi An</strong><span>In-person support locally</span></div><div class="detail"><strong>Online</strong><span>Sessions available remotely</span></div></div></div></div></section>
+<section class="content contact" id="contact"><div class="wrap contact-grid"><div><p class="eyebrow">Your next step</p><h2>Whenever you're ready.</h2><p class="contact-copy">Ask a question, learn more about the services, or enquire about availability. You can take it one step at a time.</p></div>
+<div class="contact-card"><h3>Let's talk</h3><p>Call or message Matt on +84 866 120 877 to ask about sessions and the right next step for you.</p><div class="contact-actions"><a class="button" href="tel:+84866120877">Call</a><a class="button whatsapp" href="https://wa.me/84866120877" target="_blank" rel="noopener" aria-label="Message Matt on WhatsApp at +84 866 120 877">WhatsApp</a><a class="button zalo" href="https://zalo.me/84866120877" target="_blank" rel="noopener" aria-label="Message Matt on Zalo at +84 866 120 877">Zalo</a></div><small>Matt's Healthy Mind and Body · Hoi An, Vietnam</small></div></div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> Matt's Healthy Mind and Body</span><a href="#top">Back to top ↑</a></div></footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+
+
+
+
+
+
